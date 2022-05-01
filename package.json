@@ -1,0 +1,14 @@
+{
+    "name": "@feltax/card",
+    "version": "1.0.0",
+    "description": "",
+    "types": "lib",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/feltax-team/card.git"
+    },
+    "scripts": {
+        "build": "tsc -p ."
+    }
+}
