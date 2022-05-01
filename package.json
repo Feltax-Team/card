@@ -1,9 +1,10 @@
 {
     "name": "@feltax/card",
     "version": "1.0.0",
-    "description": "",
+    "description": "Simple package for creating cards",
     "types": "lib",
     "main": "index.js",
+    "private": false,
     "repository": {
         "type": "git",
         "url": "git://github.com/feltax-team/card.git"
@@ -13,5 +14,8 @@
       },
     "scripts": {
         "build": "tsc -p ."
+    },
+    "dependencies": {
+        "@feltax/card": "github:Feltax-Team/card"
     }
 }
